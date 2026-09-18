@@ -123,3 +123,8 @@ print(f"Hello, {name}!")
 name = "Nantha"
 
 print("My name is " + name)
+
+name = "Nantha"
+age = 33
+
+print(f"My name is {name} and I am {age} years old.")
