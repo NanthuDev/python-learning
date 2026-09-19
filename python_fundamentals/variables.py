@@ -107,29 +107,12 @@ name = "Nantha"
 print("My name is " + name)
 
 # Python's f-strings are much cleaner:
-name = "Nantha"
+name = "Nantha"    
 age = 33
 
 print(f"My name is {name} and I am {age} years old.")
 
 # Variables + user input
-name = input("Enter your name: ")
-
-print(f"Hello, {name}!")
-
-# input() always returns a string
-
-
-name = "Nantha"
-
-print("My name is " + name)
-
-name = "Nantha"
-age = 33
-
-print(f"My name is {name} and I am {age} years old.")
-
-
 name = input("Enter your name: ")
 
 print(f"Hello, {name}!")
