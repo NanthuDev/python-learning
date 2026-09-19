@@ -171,4 +171,13 @@ x = 20
 print(x)
 print(y)
 
-id()
+x = 10
+
+print(x)
+print(id(x))
+
+x = 10
+y = x
+
+print(id(x))
+print(id(y))
