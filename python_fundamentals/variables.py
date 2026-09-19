@@ -116,3 +116,59 @@ print(f"My name is {name} and I am {age} years old.")
 name = input("Enter your name: ")
 
 print(f"Hello, {name}!")
+
+
+# input() always returns a string.
+
+age = input("Enter your age: ")
+
+print(type(age))
+
+
+# Converting variables
+
+age = int(input("Enter your age: "))
+
+print(age)
+print(type(age))
+price = float(input("Enter price: "))
+print(type(age))
+
+# You can convert between common types:
+age = "33"
+
+age_number = int(age)
+
+print(age_number + 1)
+
+
+monthly_salary = 8500
+months = 12
+
+# Let's build a tiny salary calculator.
+annual_salary = monthly_salary * months
+
+print(f"Monthly salary: {monthly_salary}")
+print(f"Annual salary: {annual_salary}")
+
+# interactive
+monthly_salary = float(input("Enter monthly salary: "))
+
+annual_salary = monthly_salary * 12
+
+print(f"Annual salary: {annual_salary}")
+
+
+x = 10
+y = x
+print(x)
+
+x = 10
+y = x
+
+x = 20
+
+print(x)
+print(y)
+
+id()
