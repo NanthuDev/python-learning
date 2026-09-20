@@ -124,3 +124,17 @@ coordinates = (10, 20)
 
 # list  → can change
 # tuple → cannot change
+
+# set — Unique Values,unique values,intersection, union, difference
+
+numbers = {10, 20, 30}
+
+print(numbers)
+
+numbers = {10, 20, 20, 30, 30}
+
+print(numbers)
+
+skills = {"Python", "JavaScript", "Python", "SQL"}
+
+print(skills)
