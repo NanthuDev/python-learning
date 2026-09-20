@@ -80,3 +80,34 @@ password_correct = True
 
 if password_correct:
     print("Login successful")
+
+
+# list — Collection of Values
+
+fruits = ["apple", "banana", "orange"]
+
+print(fruits)
+
+print(fruits[0])
+print(fruits[1])
+
+
+# Lists can contain different types
+data = ["John", 33, 5000.50, True]
+
+print(data)
+ages = [20, 25, 30, 35]
+
+fruits = ["apple", "banana"]
+
+fruits.append("orange")
+
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+
+fruits = ["apple", "banana", "orange"]
+
+fruits[1] = "mango"
+
+print(fruits)
