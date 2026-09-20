@@ -193,3 +193,33 @@ print(type(f))
 print(type(g))
 print(type(h))
 print(type(i))
+
+# Type Conversion
+
+# String → Integer
+
+age = "33"
+
+age = int(age)
+
+print(age)
+print(type(age))
+
+# Integer → String
+age = 33
+
+age_text = str(age)
+
+print(age_text)
+print(type(age_text))
+
+# Integer → Float
+
+number = 10
+
+decimal_number = float(number)
+
+print(decimal_number)
+print(type(decimal_number))
+
+# Float → Integer
