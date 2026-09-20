@@ -171,3 +171,25 @@ if user is None:
     print("User not found")
 
 # there is no value.
+
+# type()
+
+a = 10
+b = 10.5
+c = "10"
+d = True
+e = [10, 20]
+f = (10, 20)
+g = {10, 20}
+h = {"x": 10}
+i = None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
