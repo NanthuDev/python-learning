@@ -158,3 +158,16 @@ print(user)
 user["age"] = 34
 
 print(user)
+
+# None — No Value
+result = None
+
+print(result)
+print(type(result))
+
+user = None
+
+if user is None:
+    print("User not found")
+
+# there is no value.
