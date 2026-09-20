@@ -111,3 +111,16 @@ fruits = ["apple", "banana", "orange"]
 fruits[1] = "mango"
 
 print(fruits)
+
+# tuple — Fixed Collection
+
+coordinates = (10, 20)
+
+print(coordinates)
+print(coordinates[0])
+coordinates = (10, 20)
+
+# coordinates[0] = 100
+
+# list  → can change
+# tuple → cannot change
