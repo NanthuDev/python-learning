@@ -223,3 +223,9 @@ print(decimal_number)
 print(type(decimal_number))
 
 # Float → Integer
+
+price = 99.99
+
+price_int = int(price)
+
+print(price_int)
