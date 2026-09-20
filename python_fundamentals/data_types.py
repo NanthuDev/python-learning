@@ -229,3 +229,14 @@ price = 99.99
 price_int = int(price)
 
 print(price_int)
+
+# Python is dynamically typed.
+# int age = 33
+age = 33
+value = 10
+
+print(type(value))
+
+value = "Hello"
+
+print(type(value))
