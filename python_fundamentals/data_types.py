@@ -138,3 +138,23 @@ print(numbers)
 skills = {"Python", "JavaScript", "Python", "SQL"}
 
 print(skills)
+
+
+# dict — Key-Value Data
+user = {
+    "name": "John",
+    "age": 33,
+    "job": "Software Engineer"
+}
+
+print(user["name"])
+print(user["age"])
+print(user["job"])
+
+user["city"] = "Kuala Lumpur"
+
+print(user)
+
+user["age"] = 34
+
+print(user)
