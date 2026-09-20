@@ -60,4 +60,23 @@ print(name[0])
 print(name[1])
 print(name[2])
 
+# bool
+print("------Bool-----")
 
+is_logged_in = True
+is_admin = False
+
+print(is_logged_in)
+print(is_admin)
+print(type(is_logged_in))
+
+age = 20
+
+is_adult = age >= 18
+
+print(is_adult)
+
+password_correct = True
+
+if password_correct:
+    print("Login successful")
