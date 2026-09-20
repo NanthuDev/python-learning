@@ -14,6 +14,7 @@ print(a ** b)  # power
 
 print(type(a))
 
+# float
 height = 5.9
 price = 99.99
 temperature = 32.5
@@ -21,5 +22,13 @@ temperature = 32.5
 print(type(height))
 print(type(price))
 print(type(temperature))
+price = 100.50
+quantity = 3
+
+total = price * quantity
+
+print(total)
+print(type(total))
+
 
 # String
