@@ -32,3 +32,32 @@ print(type(total))
 
 
 # String
+print("------String-----")
+name = "John"
+city = 'Kuala Lumpur'
+job = "Software Engineer"
+
+print(name)
+print(city)
+print(job)
+
+first_name = "John"
+last_name = "Doe"
+print(f"full name:{first_name} {last_name}")
+
+full_name = first_name + " " + last_name
+
+print(full_name)
+name = "joHn"
+
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+name = "Python"
+
+print(len(name))
+print(name[0])
+print(name[1])
+print(name[2])
+
+
