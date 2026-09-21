@@ -102,3 +102,15 @@ if today == "monday" and got_taxi and not can_go:
     print("can go outside")
 else:    
     print("cant go")
+
+print("---- Nested conditions ---- ")
+age = 12
+has_active = False
+
+if age >= 18:
+    if has_active:
+        print("Active user")
+    else:
+        print("Inactive user")
+else:
+    print("Invalid user")
