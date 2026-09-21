@@ -67,3 +67,11 @@ elif age >= 18 and has_active == False:
     print("Valid but inactive user")
 else:
     print("Invalid user")
+
+print("Multiple conditions with or")
+day = "Saturday"
+
+if day == "Saturday" or day == "Sunday":
+    print("Weekend")
+else:
+    print("Working day")
