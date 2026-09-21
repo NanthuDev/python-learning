@@ -31,3 +31,10 @@ else:
 
 
 print("practice conditions")
+
+password = "temdp"
+
+if password == 'temp':
+    print("its correct")
+else:
+    print("not correct")
