@@ -55,3 +55,15 @@ elif marks >= 30:
     print("D Grade")
 else:
     print("Fail")
+
+print("Multiple conditions with and")
+
+age = 25
+has_active = False
+
+if age >= 18 and has_active:
+    print("Valid user")
+elif age >= 18 and has_active == False:
+    print("Valid but inactive user")
+else:
+    print("Invalid user")
