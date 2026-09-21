@@ -63,7 +63,7 @@ has_active = False
 
 if age >= 18 and has_active:
     print("Valid user")
-elif age >= 18 and has_active == False:
+elif age >= 18 and not has_active:
     print("Valid but inactive user")
 else:
     print("Invalid user")
@@ -75,3 +75,30 @@ if day == "Saturday" or day == "Sunday":
     print("Weekend")
 else:
     print("Working day")
+
+
+print("---- not reverses a Boolean value ---- ")
+is_raining = False
+
+if not is_raining:
+    print("You can go outside")
+
+print("---- Combining conditions ---- ")
+
+age = 25
+has_ticket = True
+is_banned = False
+
+if age >= 18 and has_ticket and not is_banned:
+    print("Entry allowed")
+else:
+    print("Entry denied")
+print("---- Combining conditions 2 ---- ")
+today ="monday"
+got_taxi = False
+can_go = False
+
+if today == "monday" and got_taxi and not can_go:
+    print("can go outside")
+else:    
+    print("cant go")
