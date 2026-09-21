@@ -114,3 +114,24 @@ if age >= 18:
         print("Inactive user")
 else:
     print("Invalid user")
+
+# However, don't overuse nested conditions. Often you can simplify them:
+if age >= 18 and has_active:
+    print("Entry allowed")
+else:
+    print("Entry denied")
+
+print("---- Conditions with strings ---- ")
+username = "admin"
+
+if username == "admin":
+    print("Welcome Admin")
+else:
+    print("Welcome User")
+
+email = "user@gmail.com"
+
+if "@" in email:
+    print("Looks like an email")
+else:
+    print("Invalid email")
