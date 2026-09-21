@@ -135,3 +135,33 @@ if "@" in email:
     print("Looks like an email")
 else:
     print("Invalid email")
+
+print("---- Conditions with lists ---- ")
+languages = ["Python", "JavaScript", "Java"]
+
+if "Python" in languages:
+    print("Python is available")
+if "C++" not in languages:
+    print("C++ is not available")
+
+print("---- Truthy and Falsy values ---- ")
+username = "ss"
+
+if username:
+    print("Username exists")
+else:
+    print("Username is empty")
+# Common falsy values include:
+# False
+# None
+# 0
+# ""
+# []
+# {}
+
+listss = {}
+
+if listss:
+    print("yeah")
+else:
+    print("not okay")
