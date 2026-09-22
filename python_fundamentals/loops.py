@@ -17,4 +17,7 @@ for age in ages:
     if age >= 18:
         print(age)
 
-        
+letter = "print"
+
+for let in letter:
+    print(let)
