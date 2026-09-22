@@ -28,3 +28,15 @@ count = 1
 while count <= 5:
     print(count)
     count = count + 1
+
+count = 3
+while count <= 5:
+    print(count)
+    count = count + 1
+
+print("_____")
+for i in range(1, 10):
+    if i == 5:
+        break
+
+    print(i)
