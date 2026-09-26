@@ -89,3 +89,30 @@ addition, subtraction, multiplication = calculate(10, 5)
 print(addition)
 print(subtraction)
 print(multiplication)
+
+# Function calling another function
+def add(a, b):
+    return a + b
+
+
+def multiply(a, b):
+    return a * b
+
+
+def calculate(a, b):
+
+    result = add(a, b)
+
+    return multiply(result, 2)
+
+
+print(calculate(10, 20))
+
+# Type hints
+def add(a: int, b: int) -> int:
+    return a + b
+
+# meaning:
+# a       → int
+# b       → int
+# return  → int
