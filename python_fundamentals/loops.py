@@ -43,6 +43,7 @@ for i in range(1, 10):
 
 print("__%%%%___")
 
+
 for i in range(1, 6):
     if i == 3:
         continue
@@ -53,5 +54,4 @@ print("Nested Loops")
 for i in range(1, 4):
     for j in range(1, 4):
         print(i, j)
-loopsss
-loppss
+ 
