@@ -49,3 +49,13 @@ def check_age(age):
 result = check_age(25)
 
 print(result)
+
+
+# Default parameters
+
+def greet(name="Guest"):
+    print("Hello", name)
+
+
+greet()
+greet("John")
