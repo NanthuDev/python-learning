@@ -71,3 +71,21 @@ introduce(age=30, name="John")
 
 
 # Returning multiple values
+def calculate(a, b):
+
+    addition = a + b
+    subtraction = a - b
+    multiplication = a * b
+
+    return addition, subtraction, multiplication
+
+
+result = calculate(10, 5)
+
+print(result)
+
+addition, subtraction, multiplication = calculate(10, 5)
+
+print(addition)
+print(subtraction)
+print(multiplication)
