@@ -8,3 +8,5 @@ greet("Sarah")
 #Basic
 # def function_name(parameters):
     # code
+# calling it
+# function_name(arguments)
