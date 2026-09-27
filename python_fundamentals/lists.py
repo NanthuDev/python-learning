@@ -65,6 +65,35 @@ fruits.pop()
 print(removed)
 print(fruits)
 
+print("------clear-----")
+fruits = ["apple", "banana", "orange"]
+
+fruits.clear()
+
+print(fruits)
+
+print("------len-----")
+fruits = ["apple", "banana", "orange"]
+
+print(len(fruits))
+
+
+print("------index-----")
+
+fruits = ["apple", "banana", "orange"]
+
+position = fruits.index("apple")
+
+print(position)
+
+print("------count-----")
+numbers = [10, 20, 10, 30, 10]
+
+print(numbers.count(10))
+
+
+
+
 
 
 
