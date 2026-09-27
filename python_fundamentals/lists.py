@@ -38,8 +38,15 @@ fruits = ["apple", "orange"]
 
 fruits.insert(1, "banana")
 fruits.insert(2, "grapes")
+print(fruits)
 
+print("------extend-----")
+fruits = ["apple", "banana"]
+
+fruits.extend(["orange", "mango"])
+fruits.append(["grapes", "orange"])
 
 print(fruits)
+
 
 
