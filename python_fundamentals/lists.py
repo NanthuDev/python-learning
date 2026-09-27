@@ -48,5 +48,25 @@ fruits.append(["grapes", "orange"])
 
 print(fruits)
 
+print("------remove-----")
+
+fruits = ["apple", "banana", "orange"]
+
+fruits.remove("banana")
+
+print(fruits)
+
+print("------pop-----")
+fruits = ["apple", "banana", "orange"]
+
+removed = fruits.pop(2)
+
+fruits.pop()
+print(removed)
+print(fruits)
+
+
+
+
 
 
