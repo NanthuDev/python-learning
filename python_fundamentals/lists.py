@@ -15,3 +15,31 @@ print(fruits[1])
 print(fruits[2])
 
 # Negative indexing
+print("------negative indexing-----")
+print(fruits[-1])  # mango
+print(fruits[-2])  # orange
+
+print("------Change List Items-----")
+fruits = ["apple", "banana", "orange"]
+
+fruits[1] = "mango"
+
+print(fruits)
+
+print("------append-----")
+fruits = ["apple", "banana"]
+
+fruits.append("orange")
+
+print(fruits)
+
+print("------insert-----")
+fruits = ["apple", "orange"]
+
+fruits.insert(1, "banana")
+fruits.insert(2, "grapes")
+
+
+print(fruits)
+
+
