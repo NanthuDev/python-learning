@@ -106,7 +106,14 @@ fruits = ["apple", "banana", "orange"]
 fruits.reverse()
 
 print(fruits)
- 
+
+
+print("------Check if an Item Exists----")
+
+fruits = ["apple", "banana", "orange"]
+
+print("banana" in fruits)
+print("grape" in fruits)
 
 
 
