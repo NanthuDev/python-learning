@@ -115,6 +115,9 @@ fruits = ["apple", "banana", "orange"]
 print("banana" in fruits)
 print("grape" in fruits)
 
+if "banana" in fruits:
+    print("Banana is available")
+
 
 
 
