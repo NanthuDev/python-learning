@@ -119,6 +119,11 @@ if "banana" in fruits:
     print("Banana is available")
 
 
+print("------Loop Through a List----")
+fruits = ["apple", "banana", "orange"]
+
+for fruit in fruits:
+    print(fruit)
 
 
 
