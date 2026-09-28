@@ -126,6 +126,13 @@ for fruit in fruits:
     print(fruit)
 
 
+numbers = [10, 15, 20, 25, 30]
+
+for number in numbers:
+    if number > 20:
+        print(number)
+
+
 
 
 
