@@ -154,6 +154,11 @@ list2.append(4)
 print(list1)
 print(list2)
 
+numbers = [10, 20, 30]
+
+print(sum(numbers))
+print(max(numbers))
+print(min(numbers))
 
 
 
