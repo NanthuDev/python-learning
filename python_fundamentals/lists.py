@@ -91,6 +91,23 @@ numbers = [10, 20, 10, 30, 10]
 
 print(numbers.count(10))
 
+print("------sort-----")
+numbers = [50, 10, 40, 20, 30]
+
+numbers.sort()
+
+print(numbers)
+print("------sort desc----")
+
+numbers.sort(reverse=True)
+
+fruits = ["apple", "banana", "orange"]
+
+fruits.reverse()
+
+print(fruits)
+ 
+
 
 
 
