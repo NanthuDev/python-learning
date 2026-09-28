@@ -140,6 +140,20 @@ print(numbers[:3])
 print(numbers[::-1])
 
 
+print("------Copying Lists----")
+list1 = [1, 2, 3]
+
+list2 = list1
+
+list1 = [1, 2, 3]
+
+list2 = list1.copy()
+
+list2.append(4)
+
+print(list1)
+print(list2)
+
 
 
 
