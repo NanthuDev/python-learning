@@ -132,6 +132,11 @@ for number in numbers:
     if number > 20:
         print(number)
 
+print("------List Slicing----")
+numbers = [10, 20, 30, 40, 50]
+
+print(numbers[1:4])
+
 
 
 
