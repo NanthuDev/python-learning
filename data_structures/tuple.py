@@ -27,3 +27,9 @@ print(person[-2])
 numbers = (10, 20, 30, 40, 50)
 
 print(numbers[1:4])
+
+number = (10)
+print(type(number))
+number = (10,)
+
+print(type(number))
