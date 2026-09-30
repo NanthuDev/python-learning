@@ -33,3 +33,24 @@ print(type(number))
 number = (10,)
 
 print(type(number))
+
+person = "Nantha", 33, "Malaysia"
+
+print(person)
+print(type(person))
+
+person = ("Nantha", 33, "Malaysia")
+
+name,  country,age = person
+
+print(name)
+print(age)
+print(country)
+
+a = 10
+b = 20
+
+a, b = b, a
+
+print(a)
+print(b)
