@@ -62,3 +62,9 @@ print(numbers.count(10))
 numbers = (10, 20, 30, 40)
 
 print(numbers.index(30))
+
+
+languages = ("Python", "JavaScript", "Java", "Go")
+
+print("Python" in languages)
+print("C++" in languages)
