@@ -74,3 +74,14 @@ languages = ("Python", "JavaScript", "Java")
 
 for language in languages:
     print(language)
+
+
+    users = (
+    ("Nantha", 33),
+    ("John", 28),
+    ("David", 31)
+)
+
+print(users[0])
+print(users[0][0])
+print(users[0][1])
