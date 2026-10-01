@@ -68,3 +68,9 @@ languages = ("Python", "JavaScript", "Java", "Go")
 
 print("Python" in languages)
 print("C++" in languages)
+
+
+languages = ("Python", "JavaScript", "Java")
+
+for language in languages:
+    print(language)
