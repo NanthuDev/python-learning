@@ -85,3 +85,10 @@ for language in languages:
 print(users[0])
 print(users[0][0])
 print(users[0][1])
+
+
+data = ("Nantha", [10, 20, 30])
+
+data[1].append(40)
+
+print(data)
