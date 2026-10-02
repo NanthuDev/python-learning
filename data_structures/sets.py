@@ -48,3 +48,14 @@ skills = {"Python", "Node.js", "SQL"}
 
 print("Python" in skills)
 print("Java" in skills)
+
+
+skills = {"Python", "Node.js", "SQL"}
+
+for skill in skills:
+    print(skill)
+
+numbers = {50, 10, 40, 20, 30}
+
+for number in sorted(numbers):
+    print(number)
