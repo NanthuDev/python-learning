@@ -80,3 +80,7 @@ for key in user:
 
 for value in user.values():
     print(value)
+
+
+for key, value in user.items():
+    print(f"{key}: {value}")
