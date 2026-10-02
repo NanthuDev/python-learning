@@ -83,3 +83,48 @@ developer_skills = {"Python", "SQL", "Git", "Docker"}
 
 print(required_skills.issubset(developer_skills))
 print(developer_skills.issuperset(required_skills))
+
+
+print(required_skills <= developer_skills)  # True
+print(developer_skills >= required_skills)  # True
+
+
+user_ids = [101, 102, 101, 103, 102, 104, 101]
+
+unique_user_ids = set(user_ids)
+
+print(unique_user_ids)
+print(len(unique_user_ids))
+
+
+user_ids = [101, 102, 101, 103, 102, 104]
+
+unique_user_ids = list(dict.fromkeys(user_ids))
+
+print(unique_user_ids)
+
+
+numbers = [1, 2, 2, 3, 4, 4, 5, 6]
+
+even_numbers = {number for number in numbers if number % 2 == 0}
+
+print(even_numbers)
+
+
+user_permissions = {"read", "write", "update"}
+
+required_permissions = {"read", "write"}
+
+if required_permissions.issubset(user_permissions):
+    print("Access granted")
+else:
+    print("Access denied")
+
+
+user_ids = [101, 102, 101, 103, 102, 104]
+
+print(dict.fromkeys(user_ids))
+
+unique_user_ids = list(dict.fromkeys(user_ids))
+
+print(unique_user_ids)
