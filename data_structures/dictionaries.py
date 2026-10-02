@@ -35,3 +35,19 @@ user["email"] = "nantha@example.com"
 user["role"] = "Senior Developer"
 
 print(user)
+
+
+user = {
+    "name": "Nantha",
+    "age": 33,
+    "role": "Developer"
+}
+
+# Remove a specific key
+del user["age"]
+
+# Remove a key and return its value
+role = user.pop("role")
+
+print(user)
+print(role)
