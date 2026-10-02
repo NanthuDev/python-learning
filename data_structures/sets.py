@@ -28,3 +28,9 @@ languages.add("Java")
 languages.add("Python")
 
 print(languages)
+
+languages = {"Python", "JavaScript"}
+
+languages.update(["Java", "Go", "C++"])
+
+print(languages)
