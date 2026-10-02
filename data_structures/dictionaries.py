@@ -84,3 +84,18 @@ for value in user.values():
 
 for key, value in user.items():
     print(f"{key}: {value}")
+
+
+    users = {
+    101: {
+        "name": "Arun",
+        "role": "Developer"
+    },
+    102: {
+        "name": "Priya",
+        "role": "Tester"
+    }
+}
+
+print(users[101]["name"])
+print(users[102]["role"])
