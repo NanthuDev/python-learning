@@ -34,3 +34,12 @@ languages = {"Python", "JavaScript"}
 languages.update(["Java", "Go", "C++"])
 
 print(languages)
+
+
+numbers = {10, 20, 30, 40}
+
+numbers.remove(20)
+print(numbers)
+
+numbers.discard(100)
+print(numbers)
