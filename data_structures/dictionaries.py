@@ -51,3 +51,9 @@ role = user.pop("role")
 
 print(user)
 print(role)
+
+user.clear()
+print(user)  # {}
+
+print(user.pop("email", None))  # {}
+
