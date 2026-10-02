@@ -43,3 +43,8 @@ print(numbers)
 
 numbers.discard(100)
 print(numbers)
+
+skills = {"Python", "Node.js", "SQL"}
+
+print("Python" in skills)
+print("Java" in skills)
