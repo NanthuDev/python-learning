@@ -16,3 +16,8 @@ user = {
 
 print(user["name"])
 print(user["age"])
+
+# print(user["email"])
+
+print(user.get("email"))
+print(user.get("email", "Not provided"))
