@@ -77,3 +77,6 @@ user = {
 
 for key in user:
     print(key)
+
+for value in user.values():
+    print(value)
