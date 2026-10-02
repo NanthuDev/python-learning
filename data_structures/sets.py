@@ -76,3 +76,10 @@ print(developer_a - developer_b)
 
 # Symmetric difference
 print(developer_a ^ developer_b)
+
+
+required_skills = {"Python", "SQL"}
+developer_skills = {"Python", "SQL", "Git", "Docker"}
+
+print(required_skills.issubset(developer_skills))
+print(developer_skills.issuperset(required_skills))
