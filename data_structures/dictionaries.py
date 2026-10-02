@@ -99,3 +99,11 @@ for key, value in user.items():
 
 print(users[101]["name"])
 print(users[102]["role"])
+
+
+squares = {
+    number: number ** 2
+    for number in range(1, 6)
+}
+
+print(squares)
