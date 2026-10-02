@@ -21,3 +21,10 @@ empty_dictionary = {}
 
 print(type(empty_set))
 print(type(empty_dictionary))
+
+languages = {"Python", "JavaScript"}
+
+languages.add("Java")
+languages.add("Python")
+
+print(languages)
