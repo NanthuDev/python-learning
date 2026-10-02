@@ -6,3 +6,13 @@ user = {
 }
 
 print(user)
+
+
+user = {
+    "name": "Nantha",
+    "age": 33,
+    "role": "Developer"
+}
+
+print(user["name"])
+print(user["age"])
