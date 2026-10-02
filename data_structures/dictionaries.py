@@ -107,3 +107,7 @@ squares = {
 }
 
 print(squares)
+
+print(squares[4])
+
+# {key_expression: value_expression for item in iterable}
