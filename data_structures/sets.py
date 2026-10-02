@@ -15,3 +15,9 @@ data = {10, "Python", True}
 print(numbers)
 print(languages)
 print(data)
+
+empty_set = set()
+empty_dictionary = {}
+
+print(type(empty_set))
+print(type(empty_dictionary))
