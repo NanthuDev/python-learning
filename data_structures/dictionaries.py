@@ -57,3 +57,23 @@ print(user)  # {}
 
 print(user.pop("email", None))  # {}
 
+
+user = {
+    "name": "Nantha",
+    "age": 33,
+    "role": "Developer"
+}
+
+print(user.keys())
+print(user.values())
+print(user.items())
+
+
+user = {
+    "name": "Nantha",
+    "role": "Developer",
+    "city": "Kuala Lumpur"
+}
+
+for key in user:
+    print(key)
