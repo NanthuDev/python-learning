@@ -59,3 +59,20 @@ numbers = {50, 10, 40, 20, 30}
 
 for number in sorted(numbers):
     print(number)
+
+
+
+developer_a = {"Python", "SQL", "Git"}
+developer_b = {"Python", "JavaScript", "Git"}
+
+# Union
+print(developer_a | developer_b)
+
+# Intersection
+print(developer_a & developer_b)
+
+# Difference
+print(developer_a - developer_b)
+
+# Symmetric difference
+print(developer_a ^ developer_b)
