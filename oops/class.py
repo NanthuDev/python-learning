@@ -6,3 +6,5 @@ class Student:
 
 student1 = Student("Arun", 20)
 student2 = Student("Priya", 22)
+def introduce(self):
+    print(f"My name is {self.name}")
