@@ -8,3 +8,12 @@ class BankAccount:
             print("Deposit successful")
         else:
             print("Invalid deposit amount")
+     def get_balance(self):
+        return self.__balance
+
+
+account = BankAccount("Arun", 1000)
+
+account.deposit(500)
+
+print(account.get_balance())
