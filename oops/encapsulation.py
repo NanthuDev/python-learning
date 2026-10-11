@@ -1,6 +1,7 @@
 class BankAccount:
      def __init__(self, owner, balance):
         self.owner = owner
+        # name mangling
         self.__balance = balance
      def deposit(self, amount):
         if amount > 0:
@@ -17,3 +18,4 @@ account = BankAccount("Arun", 1000)
 account.deposit(500)
 
 print(account.get_balance())
+print(account.__balance)
