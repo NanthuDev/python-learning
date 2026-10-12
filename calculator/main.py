@@ -1,5 +1,5 @@
-import calculator
+import calc
 
-print(calculator.add(10, 5))
-print(calculator.subtract(10, 5))
-print(calculator.multiply(10, 5))
+print(calc.add(10, 5))
+print(calc.subtract(10, 5))
+print(calc.multiply(10, 5))
