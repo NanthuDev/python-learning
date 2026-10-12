@@ -34,3 +34,24 @@ else:
 
 finally:
     print("Calculation attempt finished.")
+
+
+
+
+def deposit(amount):
+    if amount <= 0:
+        raise ValueError("Deposit amount must be positive.")
+
+    print(f"Deposited: {amount}")
+
+
+deposit(500)
+# deposit(-100)
+
+
+try:
+    result = deposit(-100)
+    print(result)
+
+except ValueError as error:
+    print("Deposit failed:", error)
