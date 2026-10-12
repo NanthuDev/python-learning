@@ -17,3 +17,20 @@ except ZeroDivisionError:
 
 print("Program continues...")
 
+
+
+try:
+    number = int(input("Enter a number: "))
+    result = 100 / number
+
+except ValueError:
+    print("Invalid input.")
+
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+
+else:
+    print("Calculation successful:", result)
+
+finally:
+    print("Calculation attempt finished.")
