@@ -15,3 +15,10 @@ plt.ylabel("Amount (RM)")
 plt.xticks(rotation=0)
 plt.tight_layout()
 plt.show()
+
+
+df["amount"].plot(kind="hist", bins=5)
+
+plt.title("Distribution of Transaction Amounts")
+plt.xlabel("Amount (RM)")
+plt.show()
