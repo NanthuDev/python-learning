@@ -22,3 +22,11 @@ print(df["amount"].mean())
 
 print("\nCustomers with amounts above RM 200:")
 print(df[df["amount"] > 200])
+
+print("functions")
+
+df["average_per_transaction"] = (
+    df["amount"] / df["transactions"]
+)
+
+print(df)
