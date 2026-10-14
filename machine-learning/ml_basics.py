@@ -16,8 +16,4 @@ predicted_score = model.predict([[7]])
 
 print("Predicted exam score:", predicted_score[0])
 
-
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+ 
