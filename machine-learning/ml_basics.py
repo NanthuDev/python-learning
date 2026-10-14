@@ -14,6 +14,6 @@ model.fit(X, y)
 
 predicted_score = model.predict([[7]])
 
-print ("Predicted exam score:", predicted_score[0])
+print("Predicted exam score:", predicted_score[0])
 
   
